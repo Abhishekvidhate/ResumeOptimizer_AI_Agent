@@ -10,9 +10,15 @@ from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
 
 # Load environment variables
-load_dotenv()
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+# load_dotenv()
+
+# os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
+# os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
+
+
+LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
+GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
+
 LANGCHAIN_PROJECT = ''  # this means "default" is selected as project for tracing
 LANGCHAIN_ENDPOINT = "https://api.smith.langchain.com"
 LANGCHAIN_TRACING_V2 = "true"
