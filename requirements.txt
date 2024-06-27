@@ -6,3 +6,4 @@ langchain-core
 langchain-groq
 llmsherpa
 reportlab
+bs4
