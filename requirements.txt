@@ -1,0 +1,10 @@
+python-dotenv
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-groq
+llmsherpa
+reportlab
+markdown
+weasyprint
