@@ -6,5 +6,3 @@ langchain-core
 langchain-groq
 llmsherpa
 reportlab
-markdown
-weasyprint
